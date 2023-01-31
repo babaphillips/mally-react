@@ -6,7 +6,7 @@ import Logo from "../assets/header.jpg";
 const Header = () => {
   return (
     <header>
-      <Container className="header">
+      <Container>
         <Image
           className="d-block mx-auto img-fluid"
           src={Logo}
